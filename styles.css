@@ -1,3 +1,64 @@
-h1 {
-  color: blue;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(15, 5, 36);
+  font-family: Helvetica;
+}
+
+header {
+  background-image: url("image1.jpg");
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 200px;
+  padding-top: 110px;
+  margin: 15px;
+}
+
+header h2 {
+  font-weight: 300px;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+header button {
+  background-color: white;
+  color: rgb(15, 5, 36);
+  border-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 95%;
+    max-height: 100px;
+  }
+  header h1 {
+    font-size: 60px;
+    padding-top: 30px;
+  }
+  header h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  header-button {
+    margin-bottom: 50px;
+  }
 }
