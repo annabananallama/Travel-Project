@@ -41,13 +41,40 @@ header button {
   margin-bottom: 200px;
 }
 
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+#contpara {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+#contpara h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+#contimage {
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+.contcol {
+  margin-top: 30px;
+}
+
 footer {
   color: rgb(15, 5, 36);
-
   padding: 30px;
   background-color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  border-top: 3px solid rgb(15, 5, 36);
 }
 
 .footcol {
