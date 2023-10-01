@@ -137,7 +137,11 @@ header button a:visited {
 }
 
 table {
-  border-style: dashed 3px solid rgb(15, 5, 36);
+  margin-left: 5%;
+}
+
+.instagram-media {
+  max-width: 300px;
 }
 
 footer {
