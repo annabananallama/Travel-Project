@@ -124,6 +124,22 @@ header button a:visited {
   height: 200px;
 }
 
+.food {
+  text-align: center;
+  color: rgb(15, 5, 36);
+  background-color: white;
+}
+
+.food h3 {
+  font-size: 30px;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+table {
+  border-style: dashed 3px solid rgb(15, 5, 36);
+}
+
 footer {
   color: rgb(15, 5, 36);
   padding: 30px;
