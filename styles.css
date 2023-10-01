@@ -137,7 +137,8 @@ header button a:visited {
 }
 
 table {
-  margin-left: 5%;
+  margin-left: 6%;
+  border-spacing: 40px;
 }
 
 .instagram-media {
