@@ -156,7 +156,7 @@ footer {
   background-size: cover;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .footcol {
