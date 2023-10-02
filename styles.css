@@ -42,7 +42,7 @@ header button {
 }
 
 header button a {
-  text-decoration: none;
+  color: rgb(15, 5, 36);
 }
 
 header button a:visited {
@@ -109,7 +109,7 @@ header button a:visited {
 }
 
 .card a {
-  text-decoration: none;
+  color: rgb(15, 5, 36);
 }
 
 .card a:visited {
@@ -163,6 +163,7 @@ footer {
 
 footer a {
   text-decoration: none;
+  color: white;
 }
 
 footer a:visited {
