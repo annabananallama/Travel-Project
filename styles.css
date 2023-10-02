@@ -111,6 +111,7 @@ header button a:visited {
 
 .card a {
   color: rgb(15, 5, 36);
+  text-decoration: none;
 }
 
 .card a:visited {
