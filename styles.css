@@ -43,6 +43,7 @@ header button {
 
 header button a {
   color: rgb(15, 5, 36);
+  text-decoration: none;
 }
 
 header button a:visited {
